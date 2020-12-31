@@ -48,10 +48,6 @@ ul {
   cursor: pointer;
 }
 
-/* .container .btn:hover {
-  background: rgba(255, 166, 0, 0.945);
-} */
-
 .container .country-flag {
   display: block;
   margin: 0 auto;
@@ -93,8 +89,18 @@ ul {
   .container {
     margin-top: 40px;
     margin-left: 10px;
+    width: 500px;
   }
+
+  .container .stats .stat {
+    margin: 0 100px;
+  }
+
+  .error {
+    width: 400px;
+  }
+
   .main-footer {
-    width: 700px;
+    width: 500px;
   }
 }
